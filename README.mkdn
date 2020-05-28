@@ -25,10 +25,11 @@ dexOS build  boot animation automatically define
 
 Set boot animation configuration for build DexOS//MotoOS
 ==================================
+```bash
 MOTO_MAX := true (for build moto MaxAudio (port from burton ) missing define motorola device
 MOTO_DOLBY := true (for build moto Dolby (port from lake ) missing define motorola device
 # for dexOS is default common dolby atmos v6.5 rework theme by irvan Maulana
-
+```
 
 
 
