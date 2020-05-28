@@ -6,6 +6,7 @@ Device configuration for build DexOS//MotoOS
 ```bash
 MOTOROLA_DEVICE := true > (define true for build MotoOS (specific for motorola devices)
 ```
+
 ```bash
 MOTOROLA_DEVICE := false > (define false for build DexOS  (universal rom for many devices)
 ```bash
