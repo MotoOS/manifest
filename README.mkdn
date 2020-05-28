@@ -1,24 +1,27 @@
 dexOS and MotoOS
 ==========
 
-Device configuration for build DexOS//MotoOS
+Device configuration for build MotoOS
 ==================================
 ```bash
 MOTOROLA_DEVICE := true > (define true for build MotoOS (specific for motorola devices)
 ```
-
+Device configuration for build dexOS
+==================================
 ```bash
 MOTOROLA_DEVICE := false > (define false for build DexOS  (universal rom for many devices)
-```bash
+```
 
 Set boot animation configuration for build DexOS//MotoOS
 ==================================
+```bash
 IS_MOTO := 1080 (default)
 IS_MOTO := 1440
 IS_MOTO := 720
 IS_MOTO := burton > (specific boot animation for burton)
 dexOS build  boot animation automatically define
 (set false on motorola device)
+```
 
 Set boot animation configuration for build DexOS//MotoOS
 ==================================
