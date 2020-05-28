@@ -1,0 +1,78 @@
+dexOS and MotoOS
+==========
+
+Device configuration for build DexOS//MotoOS
+==================================
+MOTOROLA_DEVICE := true > (define true for build MotoOS (specific for motorola devices)
+MOTOROLA_DEVICE := false > (define false for build DexOS  (universal rom for many devices)
+
+Set boot animation configuration for build DexOS//MotoOS
+==================================
+IS_MOTO := 1080 (default)
+IS_MOTO := 1440
+IS_MOTO := 720
+IS_MOTO := burton > (specific boot animation for burton)
+dexOS build  boot animation automatically define
+(set false on motorola device)
+
+Set boot animation configuration for build DexOS//MotoOS
+==================================
+MOTO_MAX := true (for build moto MaxAudio (port from burton ) missing define motorola device
+MOTO_DOLBY := true (for build moto Dolby (port from lake ) missing define motorola device
+# for dexOS is default common dolby atmos v6.5 rework theme by irvan Maulana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Credits
+-------
+* [**Extended-UI**](https://github.com/Extended-UI)
+* [**JDCTeam**](https://github.com/AOSP-JF-MM)
+* [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+* [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
+* [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+* [**Nitrogen Project**](https://github.com/nitrogen-project)
+* [**ABC ROM**](https://github.com/ezio84)
+* [**GZOSP**](https://github.com/GZOSP)
+* [**Pure Nexus**](https://github.com/PureNexusProject)
+* [**OmniROM**](https://github.com/omnirom/)
+* [**AOSPA**](https://github.com/aospa/)
+* [**BlissRoms**](https://github.com/BlissRoms)
