@@ -4,9 +4,6 @@
            fetch=".."
            review="https://android-review.googlesource.com/" />
   
-  <remote name="github"
-          fetch="https://github.com/" />
-  
   <default revision="refs/tags/android-r-preview-4"
            remote="aosp"
            sync-j="4"
